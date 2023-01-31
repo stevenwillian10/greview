@@ -1,0 +1,211 @@
+body{
+	margin:0;
+	padding:0;
+	font-size:13px;
+	font-family: Roboto, "Times New Romans", Times, serif;
+}
+#header{
+	display:block; width:100%; margin:0 auto;
+}
+a{
+	outline: none;
+	text-decoration: none;
+}
+#header nav{
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding-top: 15px;
+	background-color: #000000;
+	clear:both;
+}
+.loginsuccess{
+	float: right;
+	padding: 33px 5px 0px 0px;
+}
+.notlogin{
+	float: right;
+	padding: 20px 100px 0px 0px;
+}
+.user{
+	padding: 0px 0px 10px 7px;
+	margin-right: 170px;
+	float: right;
+}
+#header nav ul li{
+	font-size: medium;
+    display: inline; 
+    margin-right: 40px; 
+    text-transform: uppercase;
+}
+.logo{
+	padding: 0px 10px 10px 30px;
+}
+.loginbutton{
+	border: 2px solid white;
+	background-color:black;
+	color:white;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.loginbutton:hover {
+	background-color: #00f7ff;
+	color: white;
+}
+#header nav ul li a{
+	color:#FFFFFF;
+}
+#header nav ul li a:hover{
+	color:#00f7ff;
+}
+
+/*bagian body*/
+#zerospace{
+	font-size: 0px;
+}
+
+.submenu{
+	float:inline-end;
+    background:url(../images/bg.png) no-repeat top;
+	background-size: cover;
+	display: block;
+    padding: 15px 120px 15px 120px;
+}
+
+.submenu a:hover{
+	opacity: 0.5;
+}
+
+.list{
+    color:#FFF;
+    height: 200px;
+	border-radius: 5px;
+	margin: 30px 0px 30px 0px;
+	background-color: rgb(0, 0, 0);
+    padding: 10px 0 10px 0;
+}
+
+.imglist{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+.scorelist{
+    float: right;
+    font-size: 40px;
+    padding: 15px 15px;
+    margin-top: 6%;
+    margin-right: 7%;
+    background-color: #2cf00c;
+    border: 2px solid #2cf00c;
+    border-radius: 10px;
+}
+.scorelist a:link{
+    color:#FFF
+}
+.scorelist a:visited{
+    color:#FFF;
+}
+
+.desctitle{
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.desctitle a:link{
+    color:#FFF
+}
+.desctitle a:visited{
+    color:#FFF;
+}
+
+.platform{
+    margin-left: 40%;
+    font-size: 20px;
+    margin-top: 5%;
+    font-weight: bold;
+    color: #DCD6D6;
+}
+.platform a:link{
+    color:#DCD6D6;
+}
+.platform a:visited{
+    color:#DCD6D6;
+}
+
+.genre{
+    margin-left: 40%;
+    font-size: 20px;
+    margin-top: 2%;
+    font-weight: bold;
+    color: #DCD6D6;
+}
+.genre a:link{
+    color:#DCD6D6;
+}
+.genre a:visited{
+    color:#DCD6D6;
+}
+
+/*Bagian Footer*/
+.baris3{
+	background-color: #000000;
+	color: #FFF;
+}
+.clear:after{
+	content: ",";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+}
+#footer{
+	display: block;
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+	font-family: roboto;
+	font-weight: 500;
+}
+.footerkiriabout{
+	float:inline-start;
+	font-size:30px;
+	padding-bottom: 10px;
+}
+.footerkirifollow{
+	padding-top: 10px;
+	float:left;
+	font-size:24px;
+}
+.footerkiribawah{
+	padding-top: 10px;
+	float: left;
+	font-size: 14px;
+}
+.footerkanan{
+	padding-top: 45px;
+	float:right;
+	font-size: 15px;
+}
+.footerkanan2{
+	padding-top: 45px;
+	float:right;
+	margin-right: 60px;
+	font-size: 15px;
+}
+.garisfollowus{
+    margin-top: 125px;
+	padding-top: 25px;
+}
+#footer{
+	padding: 20px;
+}
+.baris3 a{
+	color: #FFF;
+}
+/*Bagian Footer*/

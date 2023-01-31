@@ -1,0 +1,129 @@
+body{
+	margin:0;
+	padding:0;
+	font-size: 0%;
+	font-family: Roboto, "Times New Romans", Times, serif;
+	background:#000000;
+}
+#header{
+	display:block; width:100%; margin:0 auto;
+}
+a{
+	outline: none;
+	text-decoration: none;
+}
+#header nav{
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding-top: 15px;
+	background-color: #000000;
+	clear:both;
+}
+#header nav ul{
+	float: right;
+	padding: 20px 100px 0px 0px;
+}
+#header nav ul li{
+	font-size: medium;
+    display: inline; 
+    margin-right: 40px; 
+    text-transform: uppercase;
+}
+.logo{
+	padding: 0px 10px 10px 30px;
+}
+.loginbutton{
+	border: 2px solid white;
+	background-color:black;
+	color:white;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.loginbutton:hover {
+	background-color: #00f7ff;
+	color: white;
+}
+#header nav ul li a{
+	color:#FFFFFF;
+}
+#header nav ul li a:hover{
+	color:#00f7ff;
+}
+
+.user{
+	padding: 0px 0px 10px 7px;
+	margin-right: 170px;
+	float: right;
+}
+/*bagian body*/
+.newest:hover{
+	opacity: 0.5;
+}
+.submenu{
+	display: inline-block;
+	margin:0;
+}
+.submenu a:hover{
+	opacity: 0.5;
+}
+/*Bagian Footer*/
+.baris3{
+	background-color: #000000;
+	color: #FFF;
+}
+.clear:after{
+	content: ",";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+}
+#footer{
+	display: block;
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+	font-family: roboto;
+	font-weight: 500;
+}
+.footerkiriabout{
+	float:inline-start;
+	font-size:30px;
+	padding-bottom: 10px;
+}
+.footerkirifollow{
+	padding-top: 10px;
+	float:left;
+	font-size:24px;
+}
+.footerkiribawah{
+	padding-top: 10px;
+	float: left;
+	font-size: 14px;
+}
+.footerkanan{
+	padding-top: 45px;
+	float:right;
+	font-size: 15px;
+}
+.footerkanan2{
+	padding-top: 45px;
+	float:right;
+	margin-right: 60px;
+	font-size: 15px;
+}
+.garisfollowus{
+    margin-top: 125px;
+	padding-top: 25px;
+}
+#footer{
+	padding: 20px;
+}
+.baris3 a{
+	color: #FFF;
+}
+/*Bagian Footer*/
